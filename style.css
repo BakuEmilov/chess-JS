@@ -76,3 +76,21 @@ h1{
   cursor: pointer;
 }
 
+.all-img {
+  width: 65px;
+  position: relative;
+  bottom: 5px;
+}
+
+.all-pawn {
+  transform: scale(.7);
+}
+
+.authcont {
+  width: 100vw;
+}
+
+.author {
+  float: right;
+  margin-right: 50px;
+}

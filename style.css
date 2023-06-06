@@ -94,3 +94,32 @@ h1{
   float: right;
   margin-right: 50px;
 }
+
+@media (max-width: 650px) {
+  .box {
+    width: 11vw;
+    height: 11vw;
+  }
+
+  .all-img {
+    width: 7vw;
+  }
+
+  #tog {
+    margin: 30px 0px;
+    font-size: 20px;
+  }
+  #reset-btn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1{
+    font-size: 20px;
+  }
+  #tog {
+    margin: 30px 0px;
+    font-size: 10px;
+  }
+}
